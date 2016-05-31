@@ -114,6 +114,42 @@ $(document).ready(function() {
 			definition: "Murchison’s private DC-3 plane, named after his wife, Virginia “Ginny” Murchison.",
 			image: "images/_glossGinny.jpg",
 			imageAlt: "Clint Murchison’s private DC-3 plane, The Flying Ginny, was one of the main means of travel to Hacienda Acuna."
+		},
+		{
+			name: "Lyndon Johnson",
+			definition: "Rep. Lyndon Johnson was elected to the Senate in 1948, thanks in part to financial support from Murchison and Sid Richardson. His election would become key in the deregulation of natural gas. (The Associated Press)",
+			image: "images/_glossJohnson.jpg",
+			imageAlt: "Lyndon Johnson"
+		},
+		{
+			name: "Jean Kerr",
+			definition: "Kerr was a member of Joe McCarthy’s staff, writing speeches for the senator along with ghostwriting one of his books. Kerr married McCarthy in 1953. (The Associated Press)",
+			image: "images/_glossKerr.jpg",
+			imageAlt: "Jean Kerr"
+		},
+		{
+			name: "Spanish Cay",
+			definition: "Clint Murchison Jr.’s 2½-mile long private island in the Bahamas where Sen. Joe McCarthy honeymooned with his wife, Jean. (Courtesy the Murchison Family)",
+			image: "images/_glossSpanishCay.jpg",
+			imageAlt: "Spanish Cayt"
+		},
+		{
+			name: "Hotel del Charro",
+			definition: "The Hotel del Charro was a Murchison-owned hotel in La Jolla, Calif. Constructed in 1953, the hotel was frequented by many of Murchison’s political connections, including FBI director J. Edgar Hoover, Richard Nixon and Joe McCarthy. (Courtesy the Murchison Family)",
+			image: "images/_glossCharro.jpg",
+			imageAlt: "The entrance to the Hotel del Charro."
+		},
+		{
+			name: "J. Edgar Hoover",
+			definition: "Director of the FBI from 1935 to 1972, Hoover was a frequent guest at Murchison’s Hotel del Charro. (The Associated Press)",
+			image: "images/_glossHoover.jpg",
+			imageAlt: "J. Edgar Hoover"
+		},
+		{
+			name: "Clyde Tolson",
+			definition: "Associated Director of the FBI from 1930 to 1972, Tolson was a friend of FBI Director J. Edger Hoover and was a frequent guest at Murchison’s Hotel del Charro with Hoover. (The Associated Press)",
+			image: "images/_glossTolson.jpg",
+			imageAlt: "Clyde Tolson"
 		}
 	];
 
