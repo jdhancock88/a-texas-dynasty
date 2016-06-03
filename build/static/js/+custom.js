@@ -157,4 +157,30 @@ $(document).ready(function() {
 		glossary: glossaryEntries
 	});
 
+	$(".imageLabel").on("click", function() {
+		var width = $(window).width();
+
+		if (width <= 900) {
+			var graphicHeight = $("#hotelGraphic").outerHeight();
+			$("#graphicImage").css("height", graphicHeight);
+		}
+		var image = $(this).attr("data-image");
+		var alt = $(this).attr("data-alt");
+
+		$("#graphicImage img").attr({
+			"src": image,
+			"alt": alt
+		});
+
+		$("#graphicImage .cutline").text(alt);
+
+		setTimeout(function() {
+			$("#graphicImage").fadeIn(250);
+		}, 0);
+	});
+
+	$(".graphicClose").on("click", function() {
+		$("#graphicImage").fadeOut(250);
+	})
+
 });
