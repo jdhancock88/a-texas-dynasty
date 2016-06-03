@@ -117,13 +117,13 @@ $(document).ready(function() {
 		},
 		{
 			name: "Lyndon Johnson",
-			definition: "Rep. Lyndon Johnson was elected to the Senate in 1948, thanks in part to financial support from Murchison and Sid Richardson. His election would become key in the deregulation of natural gas. (The Associated Press)",
+			definition: "Rep. Lyndon Johnson was elected to the Senate in 1948, thanks in part to financial support from Murchison and Sid Richardson. His election was key to legislation that supported the Texas oil business. (The Associated Press)",
 			image: "images/_glossJohnson.jpg",
 			imageAlt: "Lyndon Johnson"
 		},
 		{
 			name: "Jean Kerr",
-			definition: "Kerr was a member of Joe McCarthy’s staff, writing speeches for the senator along with ghostwriting one of his books. Kerr married McCarthy in 1953. (The Associated Press)",
+			definition: "Kerr was a member of Joe McCarthy’s staff who wrote speeches for the senator along with ghostwriting one of his books. Kerr married McCarthy in 1953. (The Associated Press)",
 			image: "images/_glossKerr.jpg",
 			imageAlt: "Jean Kerr"
 		},
@@ -147,7 +147,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "Clyde Tolson",
-			definition: "Associated Director of the FBI from 1930 to 1972, Tolson was a friend of FBI Director J. Edger Hoover and was a frequent guest at Murchison’s Hotel del Charro with Hoover. (The Associated Press)",
+			definition: "Associate Director of the FBI from 1930 to 1972, Tolson was a friend of FBI Director J. Edger Hoover and was a frequent guest at Murchison’s Hotel del Charro with Hoover. (The Associated Press)",
 			image: "images/_glossTolson.jpg",
 			imageAlt: "Clyde Tolson"
 		}
