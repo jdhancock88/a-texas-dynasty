@@ -4,7 +4,7 @@ var murch = [
           start: 0,
           end: 6,
           overlayHead: "Private paradise",
-          overlayText: "Clint Murchison Sr.’s remote Hacienda Acuna was more than 700 miles from his Dallas home.",
+          overlayText: "Clint Murchison Sr.’s remote Hacienda Acuña was more than 700 miles from his Dallas home.",
           labels: [{text: "Dallas", x: "60.5vw", y: "14vw"}, {text: "Gonzalez", x: "55.25vw", y: "48.5vw"}],
           satCredit: "Satelitte imagery: Image Landsat; Data SIO, NOAA, U.S. Navy, NGA, GEBCO"
       },
@@ -14,7 +14,7 @@ var murch = [
           start: 6,
           end: 11,
           overlayHead: "Nestled in the mountains",
-          overlayText: "At an elevation of 3,000 feet, Hacienda Acuna sat in a sheltered valley below the peaks of Mariquita and El Tigre.",
+          overlayText: "At an elevation of 3,000 feet, Hacienda Acuña sat in a sheltered valley below the peaks of Mariquita and El Tigre.",
           satCredit: "Satelitte imagery: 2016 DigitalGlobe; 2016 Cnes/Spot Image; Image Landsat; Data SIO, NOAA, U.S. Navy, NGA, GEBCO"
       },
       {
@@ -67,7 +67,7 @@ var murch = [
           start: 23,
           end: 28.5,
           overlayHead: "Island life",
-          overlayText: "About 80 miles from Acuna was Murchison’s 900-acre Isla del Toro.",
+          overlayText: "About 80 miles from Acuña was Murchison’s 900-acre Isla del Toro.",
           satCredit: "Satelitte imagery: 2016 DigitalGlobe; 2016 Cnes/Spot Image; Data SIO, NOAA, U.S. Navy, NGA, GEBCO"
       },
       {
@@ -76,7 +76,7 @@ var murch = [
           start: 29,
           end: 34.5,
           overlayHead: "Island airstrip",
-          overlayText: "The shoreline was graded into an airstrip so Murchison and his guests could make a short flight from Acuna.",
+          overlayText: "The shoreline was graded into an airstrip so Murchison and his guests could make a short flight from Acuña.",
           labels: [{text: "Airstrip", x: "49vw", y: "32vw"}],
           satCredit: "Satelitte imagery: 2016 DigitalGlobe"
       },

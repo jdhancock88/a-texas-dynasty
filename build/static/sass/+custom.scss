@@ -721,8 +721,9 @@
     }
     .cutline {
         color: white;
-        float: right;
+        float: left;
         width: 33%;
+        max-width: 200px;
     }
     @media(max-width: 900px) {
         img {
@@ -735,6 +736,7 @@
             float: none;
             width: 90%;
             margin: 0 auto;
+            max-width: none;
         }
     }
     @media (max-width: 600px) {

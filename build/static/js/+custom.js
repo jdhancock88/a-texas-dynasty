@@ -69,27 +69,27 @@ $(document).ready(function() {
 		},
 		{
 			name: "Clint Jr. and John Murchison",
-			definition: "Murchison’s sons, also known as Clint’s Whiz Kids. After serving in World War II, the brothers formed a partnership called Murchison Brothers, financed by their father. They would eventually own the Dallas Cowboys. (Courtesy the Murchison Family)",
+			definition: "For four decades, they ran Murchison Brothers, a partnership created by their father. Their most famous asset was the Dallas Cowboys. (Courtesy the Murchison Family)",
 			image: "images/_glossBrothers.jpg",
 			imageAlt: "Clint Murchison Jr and his older brother, John"
 		},
 		{
 			name: "The Duke of Windsor",
-			definition: "Formerly King Edward VIII of England, the Duke of Windsor abdicated the crown in 1936 to marry American Wallis Simpson. The couple visited Murchison’s Hacienda Acuna ranch in 1950. (The Associated Press)",
+			definition: "Formerly King Edward VIII of England, the Duke of Windsor abdicated the crown in 1936 to marry American Wallis Simpson. The couple visited Murchison’s Hacienda Acuña ranch in 1950. (The Associated Press)",
 			image: "images/_glossDuke.jpg",
 			imageAlt: "The Duke of Windsor"
 		},
 		{
 			name: "Wallis Simpson",
-			definition: "The Duchess of Windsor, Wallis Simpson was twice divorced before marrying the Duke of Windsor. Simpson refused to fly, so the couple traveled by train and truck to Murchison’s Hacienda Acuna. (The Associated Press)",
+			definition: "The Duchess of Windsor, Wallis Simpson was twice divorced before marrying the Duke of Windsor. Simpson refused to fly, so the couple traveled by train and car to Murchison’s Hacienda Acuña. (The Associated Press)",
 			image: "images/_glossSimpson.jpg",
 			imageAlt: "Wallis Simpson"
 		},
 		{
-			name: "Hacienda Acuna",
+			name: "Acuña",
 			definition: "Murchison’s 100,000-acre ranch, nestled deep within Mexico’s Sierra de Tamaulipas mountain range, 70 miles northwest of Tampico and 700 miles south of Dallas. (Courtesy the Murchison Family)",
-			image: "images/_glossAcuna.jpg",
-			imageAlt: "The ranch house at Hacienda Acuna."
+			image: "images/_glossAcuña.jpg",
+			imageAlt: "The ranch house at Hacienda Acuña."
 		},
 		{
 			name: "Isla del Toro",
@@ -97,13 +97,13 @@ $(document).ready(function() {
 		},
 		{
 			name: "Sid Richardson",
-			definition: "Murchison’s boyhood best friend. Richardson and Murchison owned Matagorda and San Jose islands on the Texas Gulf Coast, where they played hosts to friends and politicians, including President Franklin Roosevelt. (The Associated Press)",
+			definition: "Murchison’s boyhood best friend. Murchison and Richarson owned Matagorda and San Jose islands on the Texas Gulf Coast, where they played hosts to friends and politicians, including President Franklin Roosevelt. (The Associated Press)",
 			image: "images/_glossRichardson.jpg",
 			imageAlt: "Sid Richardson"
 		},
 		{
 			name: "Olin Lancaster",
-			definition: "Lancaster was a friend of Murchison’s and was traveling with him when the pair discovered Hacienda Acuna."
+			definition: "Lancaster was a friend of Murchison’s and was traveling with him when the pair discovered Hacienda Acuña."
 		},
 		{
 			name: "Bob Young",
@@ -113,7 +113,7 @@ $(document).ready(function() {
 			name: "The Flying Ginny",
 			definition: "Murchison’s private DC-3 plane, named after his wife, Virginia “Ginny” Murchison.",
 			image: "images/_glossGinny.jpg",
-			imageAlt: "Clint Murchison’s private DC-3 plane, The Flying Ginny, was one of the main means of travel to Hacienda Acuna."
+			imageAlt: "Clint Murchison’s private DC-3 plane, The Flying Ginny, was one of the main means of travel to Acuña."
 		},
 		{
 			name: "Lyndon Johnson",
@@ -157,13 +157,21 @@ $(document).ready(function() {
 		glossary: glossaryEntries
 	});
 
+
+
+
+
+	///////////////////////////////////////
+	///// HOTEL GRAPHIC ///////////////////
+	///////////////////////////////////////
+
+
 	$(".imageLabel").on("click", function() {
 		var width = $(window).width();
 
-		if (width <= 900) {
-			var graphicHeight = $("#hotelGraphic").outerHeight();
-			$("#graphicImage").css("height", graphicHeight);
-		}
+		var graphicHeight = $("#hotelGraphic").outerHeight();
+		$("#graphicImage").css("height", graphicHeight);
+
 		var image = $(this).attr("data-image");
 		var alt = $(this).attr("data-alt");
 
@@ -181,6 +189,21 @@ $(document).ready(function() {
 
 	$(".graphicClose").on("click", function() {
 		$("#graphicImage").fadeOut(250);
-	})
+	});
+
+	$.preloadImages = function() {
+    	$("<img />").attr("src", arguments[0]);
+    };
+
+	var graphicImages = [];
+
+	if ($(".imageLabel").length > 0) {
+		for (i=0; i<$("#imageLabels .imageLabel").length; i++) {
+	  		var path = $("#imageLabels .imageLabel").eq(i).attr("data-image");
+			$.preloadImages(path);
+	  	}
+	}
+
+
 
 });
