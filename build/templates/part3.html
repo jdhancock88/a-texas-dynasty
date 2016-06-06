@@ -1,0 +1,529 @@
+{%extends 'base.html'%}
+{%import 'partials/img.html' as img%}
+
+
+{%block custom_meta%}
+<meta content="{{keywords|join(',')}}" name="keywords" />
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<meta content="{{shareText}}" name="description" />
+<title>{{pageTitle}}</title>
+<meta property="og:url" content="{{url}}" />
+<meta property="og:title" content="{{shareTitle}}"/>
+<meta property="og:description" content="{{shareText}}" name="description"/>
+<meta property="og:image" content="{{imgURL}}"/>
+<meta property="og:image:height" content="{{imgHeight}}"/>
+<meta property="og:image:width" content="{{imgWidth}}"/>
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{sectionTwitter}}" />
+<meta name="twitter:creator" content="@{{authorTwitter}}" />
+
+<meta name="liveFyreID" content="{{id}}" />
+
+<meta name="parsely-page" id='parsely-page' content='{"title": "{{shareTitle}}", "link": "{{url}}", "image_url": "{{imgURL}}", "type": "post", "post_id": "{{id}}", "pub_date": "{{publishDate}}", "section": "{{section}}", "author": ["{{authors}}"], "tags": ["{{keywords|join('","')|safe}}"]}' />
+
+<meta property="og:keywords" content="{{keywords|join(',')}}"/>
+
+<meta name="news_keywords" content="{{keywords|join(',')}}"/>
+{%endblock%}
+
+
+{%block custom_head%}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+{%endblock%}
+
+
+{%block ad%}
+<script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript">
+DFP_networkId = "11222444";
+var DFPSlotSizes = [];
+if (jQuery(window).width() < 768)
+{
+var DFP_sitepage = "m.DMN/interactives";
+DFPSlotSizes = [320,50]
+var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionTop");
+adSlot0.setTargeting("position", "x01");
+adSlot0.addService(googletag.pubads());
+var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
+adSlot1.setTargeting("position", "x02");
+adSlot1.addService(googletag.pubads());
+var adSlot2 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionBottom");
+adSlot2.setTargeting("position", "x03");
+adSlot2.addService(googletag.pubads());
+
+}
+else
+{
+var DFP_sitepage = "DMN/interactives";
+ DFPSlotSizes = [728,90]
+var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionTop");
+adSlot0.setTargeting("position", "Top");
+adSlot0.addService(googletag.pubads());
+var adSlot1 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionMiddle");
+adSlot1.setTargeting("position", "Top");
+adSlot1.addService(googletag.pubads());
+var adSlot2 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionBottom");
+adSlot2.setTargeting("position", "Top");
+adSlot2.addService(googletag.pubads());
+
+ }
+</script>
+<script type="text/javascript">
+googletag.pubads().enableSingleRequest();
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+</script>
+{%endblock%}
+
+
+{%block content%}
+<div class="glossary clearFix" data-left="150px">
+  <span class="closeButton">x</span>
+  <img src="images/_defaultImage.jpg" alt="" />
+  <p></p>
+</div>
+
+<section id="contentHeader" class="part2">
+
+</section>
+<!-- end contentHeader -->
+
+<header id="customHead">
+  <div class="headGroup">
+    <h3>A Texas Dynasty</h3>
+    <h1 class="clearFix"><span class="smallHead head">Hitting </span> <span class="largeHead head">Texas Oil</h1>
+    <h2>Nixon, Hoover and McCarthy bring poolside power to Clint Murchison’s Hotel del Charro</h2>
+  </div>
+</header>
+
+<div id="wrapper">
+<section class="contentWell clearFix">
+
+  <div class="shareComments shareCommentsTop">
+      <ul id="share-bar1" class="width-auto-hack"></ul>
+  </div>
+<!-- end shareComments -->
+
+	<div class="bylineBlock">
+		<p>By <a target="blank" href="mailto:emailaddresshere">Writer Name</a> <!-- <a class="authorTwitter" href="twitterurlhere" target="_blank">Twitter</a> --> | Staff Writer</p>
+		<p>Published Month Date, Year</p>
+	</div>
+	<!-- end bylineBlock -->
+
+<p class="precede"><strong>Third in a three-part sequel to Islands of the Oil Kings: </strong>Lorem ipsum lorem ipsum lorem ipsum. In Part 3, XXX. <strong>Above:</strong> Cutline goes here. (Courtesy the Murchison Family)</p>
+
+<p class="intro"><span class="dropcap">I</span>n the spring of 1953, Sen. Joe McCarthy’s arrival at Dallas Love Field sent a puzzled tremor through the local media. The investigator of communists — the self-made celebrity of the Red Scare — was at the apex of his career.</p>
+
+<p>In late May, he left Washington on a “10-day mission” for his subcommittee.</p>
+
+<p>He wore his trademark double-breasted suit and snap-brimmed fedora. At Commerce and Akard, he and his general counsel. Francis Flanagan, walked swiftly into downtown’s Baker Hotel. McCarthy’s dense eyebrows and stern expression gave him a look of determination. Inside the Baker was the Dallas Petroleum Club. Once behind the members-only door, his demeanor softened. There, over a meal with oilmen, he showed the private man — affable and engaged. At 44, he was a cocktail conversationalist and smile-prone bachelor.</p>
+
+<p>The next morning, the Wisconsin senator awoke 15 miles north of downtown in a lavish guest suite at the mansion of oilman Clint Murchison Sr. McCarthy’s room looked out at 200 manicured acres. A morning breeze rustled oak and pecan trees that shaded the pool on a high bank above White Rock Creek.</p>
+
+<p>Murchison and McCarthy shared a disdain for communism and a friendship with FBI director J. Edgar Hoover.</p>
+
+<p>On this day, Murchison was in California. So, as the senator dressed, he was greeted by the heirs apparent: sons John D. Murchison, 31, and Clint W. Murchison Jr., 29. They were his guides.</p>
+
+<p>The public thought he was on a hunt for communists. But his mission was not investigatory — unless a few white-wing dove turned pink.</p>
+
+<p>McCarthy had a penchant for rich friends and he wanted to visit the 100,000-acre Murchison ranch in Mexico called Acuña. May was dove-hunting season.</p>
+
+<p>Later that morning, the senator and the Murchisons arrived at a hangar at Love Field.</p>
+
+<p>There, reporters were gathered with questions.</p>
+
+<p>McCarthy scowled and said nothing.</p>
+
+<p>Why wouldn’t he speak?</p>
+
+<p>“He would like to,” Flanagan said, “but you know how it is.”</p>
+
+<p>The newspapermen noticed a large man they characterized as McCarthy’s muscular aide. In fact, they observed Dallasite Bob Thompson, a Murchison exec and former Marine major who’d first met Lt. Joe McCarthy on Guam during World War II.</p>
+
+<p>Where the Murchisons were quiet and cerebral, Thompson was boisterous and irreverent. As a member of the party, Thompson boarded a private DC-3.</p>
+
+<p>John and Clint Jr.’s careers had just begun. The business and political empire built by their father was in the early stages of its generational transition. To entertain the controversial McCarthy was part of the process.</p>
+
+</section>
+    <div id="dfpAdPositionTop" class="ad"> <!-- to remove bottom and top rules, add class "noRule" -->
+        <p class="adLabel">Advertisement</p>
+        <script type="text/javascript">googletag.display('dfpAdPositionTop');</script>
+    </div>
+    <!-- end adBlock -->
+<section class="contentWell">
+
+<p>In the 1960 and ’70s, the sons became famous in Texas and on Wall Street. They owned the Super Bowl champion Dallas Cowboys. In Washington, D.C., they avoided overt partisanship. Asked what political side he was on, Clint Jr. said, “I’m on all sides.” The brothers were entertained at the White House by Kennedy, Johnson, Nixon and Ford. LBJ visited them in Texas. Nixon called Clint Jr. from the Oval Office. Ford attended parties at John’s home.</p>
+
+<p>But to reach their own peaks, the Murchison sons first traveled the road paved by their father.</p>
+
+<p>In the 1940s, Murchison Sr. poured assets into a partnership called Murchison Brothers. Following their military service in World War II, John finished at Yale and Clint Jr. at MIT.</p>
+
+<p>Dozens of missions as a fighter pilot had aggravated John’s asthma.</p>
+
+<p>Murchison Sr.’s father died at 59 from asthma. His first wife had died in her 20s from hepatitis. John and Clint Jr.’s 10-year-old brother, Burk, died from pneumonia.</p>
+
+<p>For John’s health to recover, he settled in Santa Fe, N.M., where he and his new wife, Lupe, reveled in the casual life.</p>
+
+<p>As Clint Jr. finished his master’s at MIT, he and his wife, Jane, got a home in Boston. A Phi Beta Kappa with a mathematical mind, he thought of being a teacher or an engineer.</p>
+
+<p>But by 1949, Murchison Brothers was huge. Its assets would soon top $100 million.</p>
+
+<p>The gravity of their father’s plan pulled then toward Dallas.</p>
+
+<p>In letters, he wrote, “Come on home. Love, Dad.”</p>
+
+<p>John shared his Murchison Sr.’s large nose. But unlike his short, jowly father, John was tall and refined. His business interests were finance and insurance.</p>
+
+<p>Like their father, Clint Jr. was 5-foot-6. He wore horn-rimmed glasses and favored a perpetual crew cut. He liked construction. But mostly, he liked football. He was on a quest to own an NFL team.</p>
+
+<p>Having lost their a mother and kid brother early, John and Clint Jr. were quiet. In large groups of people, they were shy. But Clint Jr.’s shyness bordered on introversion. His blue eyes were prone to an icy stare. Intimates knew that beneath his inscrutable exterior was a wry wit.</p>
+
+<p>Asked to name the elements of success, he said, “Hard work, dedication and having a rich father.”</p>
+
+<p>As McCarthy, Flanagan, Thompson and the Murchisons flew to Acuña, the senator learned that 29-year-old Clint Jr. had his own island. Murchison Sr. had once owned Matagorda Island in Texas. After that, he bought Isla del Toro, in Mexico.</p>
+
+<p>In the Bahamas, Clint Jr. had just purchased the 2½-mile long Spanish Cay. Within months, McCarthy would be Clint Jr.’s island guest. While there, McCarthy made a decision that began his downfall.</p>
+
+<p>Unlike the senator, Murchison Sr. was not enamored of Clint Jr.’s new retreat.</p>
+
+<p>Bob Thompson explained that when the deal closed, he told the father that Clint Jr. had just bought Spanish Cay.</p>
+
+<p>“Well,” the father replied, “I guess the next thing the little s.o.b. will want is a string of racehorses and a mistress.”</p>
+
+<div class="imageBlock wideBlock clearFix">
+  {{img.jpg("delMarPurchase", "Del Mar Turf Club president Alfred Hart, Clint Murchison Sr. and movie producer and Turf Club board member Louis B. Mayer.", class="borderImage", sizes="95vw")}}
+  <p class="cutline">Del Mar Turf Club president Alfred Hart, Clint Murchison Sr. and movie producer and Turf Club board member Louis B. Mayer announce that Murchsion and Sid Richardson have purchased control of the track. (The Associated Press)</p>
+</div>
+
+<p class="subhead">J. Edgar mover</p>
+
+<p>It was Memorial Day weekend 1953 and a milestone for Murchison Sr.</p>
+
+<p>While McCarthy was in Mexico, the Dallas titan raised the Texas flag in La Jolla, Calif. He and his second wife, Virginia, enjoyed the temperate beach climate. They liked the horse races at the Del Mar Turf Club so much that he bought the track with his best friend, Fort Worth oilman Sid Richardson.</p>
+
+<p>In 1953, construction was finished on the Murchison-owned Hotel del Charro, located on four hillside acres with an unobstructed view of the Pacific. From its entrance on Torrey Pines Road, the del Charro looked non-descript with only a crescent-shaped pool, cabanas and umbrella-covered tables. The driveway was marked by a small jockey statue. Farther from the road was a white-stucco 75-room luxury hotel with a red-tile roof. The Jacaranda Room was the equine-themed lounge with a mural of the Hialeah racetrack. A row of jockey caps hung behind the bar. At the rear of the property were standalone bungalows with fenced-in yards. They would house the Murchisons, the lifelong-bachelor Richardson and a parade of VIPs.</p>
+
+<p>It was the post-war, pre-jet set era. Before private jets, both Murchison and Richardson had converted twin-engine DC-3 airliners into private planes. In the novel Giant, Edna Ferber wrote that Texas oilmen all had four-engine airliners. Richardson’s Dallas-based lobbyist Bill Kittrell scoffed, “Two DC-3s, Miss Ferber, do not a DC-6 make.”</p>
+
+<p>With flights from Texas to California, the planes ferried Texans like future governor John Connally, Richardson’s full-time lawyer; Perry Bass, Richardson’s nephew and business partner; and Murchison’s sons, John and Clint Jr.</p>
+
+<div class="imageBlock sliderImage unslid">
+  {{img.jpg("nixonHoover", "FBI Director J. Edgar Hoover welcomes Vice President Richard Nixon and his wife Pat to Hotel del Charro.", class="borderImage", sizes='(min-width: 1000px) 640px, (min-width: 850px) 60vw, 95vw')}}
+  <p class="cutline">FBI Director J. Edgar Hoover welcomes Vice President Richard Nixon and his wife, Pat, to Clitn Murchison’s Hotel del Charro (National Law Enforcement Museum)</p>
+</div>
+
+<p>The most faithful del Charro guests were FBI director J. Edgar Hoover and his friend and fellow G-man Clyde Tolson. For nearly 20 years, they spent one month every summer in Bungalow A. Murchison not only enjoyed Hoover’s friendship, but he also enjoyed the luminaries that came to curry favor with the FBI boss.</p>
+
+<p>Murchison’s wife, Virginia, was also a Hoover fan. She and her best friend, Effie Cain, owned MurCain Stables. One of t heir best thoroughbreds was named Jedgar Ruler.</p>
+
+<p>Bungalow A was arranged to suit the director’s exacting standards. There were phone lines to Washington, oscillating fans, unlined pads of white paper, two rolls of Scotch tape, six sharpened No. 2 pencils and a bottle of Jack Daniels for Hoover and Haig & Haig scotch for Tolson.</p>
+
+<p>Hotel staff or FBI agents who knocked, were greeted by the notoriously cranky Tolson. “What the hell do you want?” he barked.</p>
+
+<p>Murchison jovially nicknamed him “Killer.”</p>
+
+<p>Around the pool, Hoover hosted dinners and socialized with movie stars like Joan Crawford and John Wayne.</p>
+
+<p>When California gubernatorial candidate Pat Brown criticized the FBI, he was chastened by Hoover during a meeting at del Charro. Even the increasingly reclusive tycoon Howard Hughes came to Bungalow A to see Hoover.</p>
+
+<p>The FBI chief’s relationship with Sen. Richard Nixon had been kind but cautious. Once Nixon became vice president, things warmed considerably. They regularly exchanged gossip and political tips.</p>
+
+<p>When Vice President Nixon and his wife, Pat, first arrived at Hotel del Charro, Hoover came outside to greet them both.</p>
+
+<p>The Nixons were the guests of honor at a del Charro dinner where Hoover was the host. Over a festive dinner, Nixon became better acquainted with Murchison and Richardson.</p>
+
+<p>The same group reassembled the next day for brunch.</p>
+
+<p>Even as he relaxed at Murchison’s hotel, Hoover gave endless talks about the dangers of communism. “Civilization is confronted by a conspiracy of gigantic proportions,” he said.</p>
+
+<p>As the controlling stockholder of Henry Holt and Company, Murchison Sr. notified its president Ed Rigg to publish Hoover’s book on communist aggression called Masters of Deceit and stressed that the director should be given a favorable deal. (It was a bestseller.)</p>
+
+<p>With del Charro’s poolside mixture of anti-communist rhetoric and horserace handicapping, it was an inevitable destination for Joe McCarthy.</p>
+
+<p>He first arrived in August 1953.</p>
+
+</section>
+    <div class="imageBlock clearFix" id="hotelGraphic">
+
+        <div class="graphicChatter">
+            <h5>Hotel del Charro</h5>
+            <p>A layout of the Hotel del Charro, which was constructed in 1953. The 75-room hotel had an unobstructed view of the Pacific Ocean and four standalone bungalows with fenced-in yards.</p>
+            <p><span class="key"></span>Key label</p>
+            <p><span class="imageLabel"><i class="fa fa-camera" aria-hidden="true"></i></span>Click to view image</p>
+        </div>
+
+
+        <div class="graphicBlock">
+
+            {{img.jpg("delcharro", "A graphic of the Hotel del Charro", sizes="100vw")}}
+
+            <span class="key" id="key1">1</span>
+            <span class="key" id="key2">2</span>
+            <span class="key" id="key3">3</span>
+            <span class="key" id="key4">4</span>
+            <span class="key" id="key5">5</span>
+
+            <div id="imageLabels">
+                <button class="imageLabel" id="image1" data-image="images/_mcCarthyPool.jpg" data-alt="Sen. Joe McCarthy at the Hotel del Charro pool with Lucille Vogeler (left) and his wife, Jean Kerr McCarthy (right). (Associated Press)"><i class="fa fa-camera" aria-hidden="true"></i><span>McCarthy poolside</span></button>
+                <button class="imageLabel" id="image2" data-image="images/_bungalowA.jpg" data-alt="Clyde Tolson (left), and J. Edgar Hoover (right) often spent a month out of the summer in Bungalow A. (The Associated Press)"><i class="fa fa-camera" aria-hidden="true"></i><span>Hoover and Tolson at Bungalow A</span></button>
+                <button class="imageLabel" id="image3" data-image="images/_bungalowD.jpg" data-alt="Pat Nixon and Vice President Richard Nixon in the yard of their bungalow at Hotel del Charro. (Courtesy of the Murchison family)"><i class="fa fa-camera" aria-hidden="true"></i><span>The Nixons at Bungalow D</span></button>
+            </div>
+
+            <div id="keyLegend" class="clearFix">
+                <p><span class="key">1</span> Private bungalows</p>
+                <p><span class="key">2</span> Jacaranda Room</p>
+                <p><span class="key">3</span> Main office</p>
+                <p><span class="key">4</span> Pool</p>
+                <p><span class="key">5</span> Torrey Pines Road</p>
+            </div>
+
+        </div>
+
+        <div id="graphicImage" class="clearFix">
+
+            <span class="graphicClose"><i class="fa-times-circle fa" aria-hidden="true"></i></span>
+
+            <img src="images/_defaultImage.jpg" alt=""  />
+            <p class="cutline">This is a cutline</p>
+
+        </div>
+
+        <p class="credit">Troy Oxford/Staff; Source: Ron Jagodinski/JAGRAF/X; Note: Diagram is an approximation</p>
+
+    </div>
+<section class="contentWell">
+
+<p class="subhead">Smokin’ Joe McCarthy</p>
+
+<p>Harry Truman was out of office and, for the Texas oil crowd, it was celebratory summer.</p>
+
+<p>Truman had vetoed bills that would have reaped millions for oilmen.</p>
+
+<p>President Dwight Eisenhower was Richardson and Murchison’s friend and more amenable to the same legislation.</p>
+
+<p>Yet, McCarthy was adrift.</p>
+
+<p>He had become famous for a specious allegation that there were 205 communists in the State Department—Truman’s State Department. The Washington Post had labeled his tactic of accusations with few supporting facts “McCarthyism.”</p>
+
+<p>Now that a fellow Republican was president, McCarthyism wore thin with the GOP.</p>
+
+<p>But it didn’t bother Hoover. He saw McCarthy as a protégé and regularly leaked FBI intelligence to him about potential communists.</p>
+
+<p>Largely because of the Hoover stamp of approval, Murchison welcomed the senator to del Charro. A heavy drinker, McCarthy downed cocktails by the pool, sat in a cloud of cigarette smoke and mingled with Dallas aristocrats like Jack Vaughn and his wife, Mary Jo, Fritz Hawn and Lupe and John Murchison.</p>
+
+</section>
+    <div id="dfpAdPositionMiddle" class="ad"> <!-- to remove bottom and top rules, add class "noRule" -->
+        <p class="adLabel">Advertisement</p>
+        <script type="text/javascript">googletag.display('dfpAdPositionMiddle');</script>
+    </div>
+    <!-- end adBlock -->
+<section class="contentWell">
+
+<p>Richardson remained distant.</p>
+
+<p>“I always stayed away from Joe,” Richardson said. “Maybe he’s done some good work. But I don’t see how I could be friendly with [Democrats] Sam Rayburn and Lyndon Johnson and be friendly with Joe McCarthy, too,” Richardson said.</p>
+
+<p>“Sid thinks I’m crazy to get mixed up in this business,” said Murchison Sr.</p>
+
+<p>As Richardson’s lawyer, John Connally had an intimate view of Murchison and Richardson.</p>
+
+<p>“Clint was somewhat farther to the right,” Connally said. “Richardson stayed a Democrat but crossed over when he saw the need.”</p>
+
+<p>Even Murchison found McCarthy’s grandstanding and his drinking tiresome. “I think he is selfish and trying to keep his name in the limelight rather than pursue his work,” he wrote to Sen. Price Daniel. “But show me a better brickbat to throw at communism and I will pick it up along with McCarthy.”</p>
+
+<div class="videoBlock">
+  <div class="videoWrapper">
+        <iframe width="1280" height="720" src="http://www.youtube.com/embed/D2S7HID7rEc" frameborder="0" allowfullscreen></iframe>
+        <!-- change out iframe code with your youtube video -->
+  </div>
+</div>
+<!-- end you tube video -->
+
+<p class="subhead">The bill is passed</p>
+
+<p>Before that first del Charro summer ended, John Murchison left La Jolla early for a special meeting with first lady Mamie Eisenhower. Murchison Brothers was building a 23-story office tower in Denver, the city where she was raised and the city where she married Lt. Dwight Eisenhower.</p>
+
+<p>The top floor of the building would feature a chapel dedicated to the new president.</p>
+
+<p>Murchison Sr. got a note from the first lady on White House stationery. “Dear Clint, We had a very satisfactory meeting with your son John,” she wrote. “You are most generous in wishing to do this.”</p>
+
+<p>What was a harmonious La Jolla summer for oilmen and politicians had a vexing conclusion for del Charro manager Allen Witwer. His contract offered a bonus if he reduced the hotel’s construction debt.</p>
+
+<p>One guest made that a challenge.</p>
+
+<p>Hoover, the No. 1 lawman in America, made no effort to pay.</p>
+
+<p>The manager went to see Murchison with the FBI director’s bill for the entire stay.</p>
+
+<p>“What do you want me to do?” Witwer asked.</p>
+
+<p>Murchison issued an order for Hoover and Tolson’s del Charro expenses. It stayed in effect until the oilman died.</p>
+
+<p>“Put it on my bill,” he said.</p>
+
+<div class="imageBlock wideBlock clearFix">
+  {{img.jpg("mccarthyHoneymoon", "Sen. Joe McCarthy and his wife, Jean, during their 1953 honeymoon in the Bahamas.", class="borderImage", sizes="95vw")}}
+  <p class="cutline">Sen. Joe McCarthy and his wife, Jean, during their 1953 honeymoon in the Bahamas. (The Associated Press)</p>
+</div>
+
+<p class="subhead">An island honeymoon</p>
+
+<p>Once McCarthy left del Charro and returned to his post in Washington, D.C., he made an announcement that startled even his closest friends.</p>
+
+<p>He planned to marry.</p>
+
+<p>Almost 45, he looked older with thinning hair and an alcohol bloat. The burly backslapper had never shown an interest in marriage nor even serious dating. But soon he would wed the smart, attractive and ambitious member of his staff, Jean Kerr. She was two decades younger. A staunch conservative from an affluent Washington, D.C., family, Kerr not only wrote speeches for McCarthy but she also ghostwrote one of his books.</p>
+
+<p>Virginia Murchison was so pleased, a MurCain stable yearling was named Jean’s Joe.</p>
+
+<p>On Sept. 29, Kerr and McCarthy arrived at St. Matthews Cathedral in Washington where 900 guests had assembled.</p>
+
+<p>The head usher was Murchison exec and McCarthy’s Acuña hunting companion Bob Thompson.</p>
+
+<p>Now Clint Jr.’s partner in Tecon Construction, Thompson oversaw the seating of people like Sen. John F. Kennedy and CIA director Allen Dulles.</p>
+
+<p>After the vows, when the couple left the altar, a smiling McCarthy waved to Nixon.</p>
+
+<p>Sen. and Mrs. McCarthy then boarded a plane and flew to the Bahamas for an extended honeymoon on Clint Jr.’s private island, Spanish Cay.</p>
+
+<p>In the fall of 1953, Clint Jr. had just begun work to turn it into a personal paradise. The island was filled with heavy equipment bearing his company logo: Tecon.</p>
+
+<p>The one-story, 14,000-square-foot main house was under construction.</p>
+
+<div class="imageBlock sliderImage unslid">
+  {{img.jpg("pointhouse", "The Point House on Clint Murchison Jr.’s island Spanish Cay, where Sen. Joe McCarthy and his wife, Jean, spent their honeymoon.", class="borderImage", sizes="95vw")}}
+  <p class="cutline">Lucille Vogeler, Sen. Joe McCarthy and his wife, Jean, at the pool at Hotel del Charro. (The Associated Press)</p>
+</div>
+
+<p>A smaller house, built by the previous owner, was available for the McCarthys. Clint Jr.’s eldest son, Clint III, remembers it as “a nice Bahamian bungalow with two bedrooms and a kitchen.”</p>
+
+<p>The previous owner called it the Point House.</p>
+
+<p>In a jokey homage to oilman Glenn McCarthy’s opulent Houston hotel, Clint Jr. renamed it the Shamrock.</p>
+
+<p>That was where Jean and Joe McCarthy had planned to spend a lengthy honeymoon.</p>
+
+<p>Those plans stopped when the senator was taken to the island’s ship-to-shore radio for a call from his ambitious new staffer, Roy Cohn. At the urging of Hoover, McCarthy had hired Cohn as general counsel for the subcommittee on investigations.</p>
+
+<p>According to Cohn, communist subversives had infiltrated the Army Signal Corps Center at Fort Monmouth, N.J. He said McCarthy should return immediately to begin an investigation of the U.S. Army.</p>
+
+<p>McCarthy and his bride packed their bags and left the island.</p>
+
+<p>It was the beginning of McCarthy’s very public demise.</p>
+
+<p>The army began its own it investigation of Cohn and, by extention, McCarthy. The next spring, for 36 days the Army-McCarthy hearings were nationally televised. The climax came on June 9 when the army’s chief legal representative Joseph Nye Welch attacked McCarthy’s habit of unsubstantiated charges. He famously asked the senator, “Have you no sense of decency, sir, at long last? Have you left no sense of decency?”</p>
+
+<p>Millions of viewers heard the gallery erupt in applause.</p>
+
+<p>Two months later, McCarthy returned to California with his bride. During the day, he visited the horse track with Hoover and Tolson. In the evenings, he smoked cigarettes, drank by the del Charro pool and told dirty jokes.</p>
+
+<p>One night, with the usual poolside cadre of millionaires, an over-served McCarthy turned uloaded his verbal vitriol on his wife. Unable to articulate his point, he shoved Jean, fully clothed, into the pool.</p>
+
+<p>An irate Murchison stood from his chair and walked away.</p>
+
+<p>The next morning, McCarthy received one of Dallas oilman’s aides who carried a terse message: “Pack your bags and get out.”</p>
+
+<p>As Murchison explained to his executive Gerald Mann, “I finally had it when he pushed Jean into the pool. That did it for me.”</p>
+
+</section>
+    <div id="dfpAdPositionBottom" class="ad"> <!-- to remove bottom and top rules, add class "noRule" -->
+        <p class="adLabel">Advertisement</p>
+        <script type="text/javascript">googletag.display('dfpAdPositionBottom');</script>
+    </div>
+    <!-- end adBlock -->
+<section class="contentWell">
+
+<p class="subhead">His last lap</p>
+
+<p>Four months later, the Senate voted to censure McCarthy.</p>
+
+<p>The eclipse of McCarthy’s influence had no influence in the world of horse racing.</p>
+
+<p>Five months after the Senate’s censure, the Kentucky Derby had one of its smallest fields in history, only 10 horses.</p>
+
+<p>One of them was the MurCain Stable’s 3-year-old colt Jean’s Joe.</p>
+
+<p>The Derby was an appropriate metaphor for the rapid decline of Joe McCarthy. A few months before, Jean’s Joe had been one of the most promising thoroughbreds in the country. It won California’s San Felipe Stakes.</p>
+
+<p>At the Kentucky Derby, it ran fifth.</p>
+
+<p>McCarthy’s fall from prominence relieved Eisenhower. The president told associates, “It’s no longer McCarthyism, it’s McCarthywasm.”</p>
+
+<p>FOR ENDING -- Can you bring this back to the Murchisons and cast it forward? Along this lines of -- The expansion of their power and influence had a different trajectory, with the next XXXX years</p>
+
+<p class="notes"><strong>PART 3:</strong> Super Bowl champions ......</p>
+
+<p class="notes"><strong>A NOTE ON SOURCES:</strong> For this narrative, Alan Peppard interviewed four grandchildren of Clint Murchison Sr.: Barbara Coffman, Burk Murchison, Clint Murchison III and Robert Murchison. Personal correspondence from Dwight Eisenhower, Mamie Eisenhower, J. Edgar Hoover, W.R. “Fritz” Hawn, Clint Murchison Sr., Virginia Murchison, John Murchison and Clint Murchison Jr. courtesy of the Murchison family</p>
+
+
+<p class="notes"><strong>IN ADDITION, HE USED THE FOLLOWING SOURCES:</strong> <em>The Rise and Fall of Senator Joe McCarthy</em> by James Cross Giblin, 2009; <em>In History’s Shadow</em> by John Connally with Mickey Herskowitz 1993; <em>Clint: A Biography</em> by Ernestine Orrick Van Buren, 1986; <em>The Big Rich</em> by Bryan Burrough, 2009; <em>Official and Confidential: The Secret Life of J. Edgar Hoover</em> by Anthony Summers, 1993; <em>The Lone Star: The Life of John Connally</em> by James Reston Jr., 1989; <em>Classic Clint</em> by Dick Hitt, 1992; <em>The Murchisons</em> by Jane Wolfe, 1989; <em>The Case Against Congress</em> by Drew Pearson and Jack Anderson, 1968; <em>Time</em>, “Those Texas Millionaires,” May 24, 1954; <em>The Washington Post</em>, “Murchison Money Helped McCarthy,” Feb. 17, 1954; <em>San Diego Reader</em>, “Oil and Politics in La Jolla,” Jan. 5, 2011; <em>The San Diego Union</em>, “La Jolla Luxury Hotel Announced,” March 1, 1953; <em>The San Diego Union</em>, “Del Charro Ready for Formal Opening,” May 24, 1953; <em>The San Diego Union</em>, “New Owners in Spotlighted Box,” July 28, 1954; <em>The San Diego Union</em>, “FBI Chief Tells His Views,” Aug. 8, 1954; <em>The San Diego Union</em>, “Sen. McCarthy Relaxes at Del Mar,” Aug. 25, 1954; <em>The San Diego Union</em>, “Director of FBI to Honor Nixons,” Aug. 11, 1955; <em>The San Diego Union</em>, “Brown Discloses Hoover Meeting,” Aug. 15, 1958; <em>The San Diego Union</em>, “Ex-Manager Sues Hotel Operators,” Aug. 7, 1959; <em>Sarasota Herald-Tribune</em>, “McCarthy Ends His Honeymoon,” Oct. 10, 1953; <em>Los Angeles Herald-Express</em>, “Jean’s Joe Threat for the $100,000 Santa Anita Derby,” Feb. 7, 1955; <em>Los Angeles Examiner</em>, “Swaps Mops Up in $137,500 Derby,” Feb. 20, 1955; <em>The Dallas Morning News</em> Archive; <em>Dallas Times Herald</em> Archive; Ford Daily Diary, Gerald R. Ford Presidential Library & Museum; Presidential Daily Diary, Nixon Presidential Library & Museum; White House Diary, John F. Kennedy Presidential Library & Museum</p>
+
+
+	<section class="credits clearFix">
+		<p>Author: <a href="mailto:emailaddress">Name</a></p>
+		<p>Editor: <a href="mailto:emailaddress">Name</a></p>
+		<p>Copy Editor: <a href="mailto:emailaddress">Name</a></p>
+		<p>Photos: <a href="mailto:emailaddress">Name</a></p>
+		<p>Graphics: <a href="mailto:emailaddress">Name</a></p>
+		<p>Designer: <a href="mailto:emailaddress">Name</a></p>
+	</section>
+	<!-- end credits -->
+
+	<section class="more clearFix">
+		<h5>More from The Dallas Morning News</h5>
+		<a class="clearFix" href="#">
+			<img src="images/_defaultImage.jpg" alt="#" />
+			<h6>Story title goes here</h6>
+			<p>Description of the story goes in this spot here</p>
+		</a>
+		<a class="clearFix" href="#">
+			<img src="images/_defaultImage.jpg" alt="#" />
+			<h6>Story title goes here</h6>
+			<p>Description of the story goes in this spot here</p>
+		</a>
+		<a class="clearFix" href="#">
+			<img src="images/_defaultImage.jpg" alt="#" />
+			<h6>Story title goes here</h6>
+			<p>Description of the story goes in this spot here</p>
+		</a>
+	</section>
+	<!-- end more -->
+
+		<div class="shareComments shareCommentsBottom">
+		<ul id="share-bar2" class="width-auto-hack"></ul>
+        <div id="comments"></div>
+	</div>
+	<!-- end shareComments -->
+
+</section>
+<!-- end contentWell -->
+
+</div>
+<!-- end wrapper -->
+{%endblock%}
+
+
+{%block custom_foot%}
+<script type="text/javascript" src="js/need2know.js"></script>
+
+{%endblock%}
+
+
+{%block custom_social_meta%}
+<script type="text/javascript">
+var storyTitle = "{{shareTitle}}",
+	storyURL = "{{url}}",
+	leadText = "{{shareText}}",
+	storyIMG = "{{imgURL}}",
+	storyAuthor = "{{authors}}",
+	twitterTag = "{{sectionTwitter}}",
+	comments = true,
+	share = true;
+	OAS_sitepage = 'www.dallasnews.com/{{desk}}/{{section}}/';
+</script>
+{%endblock%}
