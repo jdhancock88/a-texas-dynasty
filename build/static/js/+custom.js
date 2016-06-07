@@ -27,7 +27,6 @@ $(document).ready(function() {
 				sn.css("display", "none");
 				tn.css("display", "block");
 			}, 260);
-
 		}
 	}
 
@@ -54,6 +53,7 @@ $(document).ready(function() {
 	});
 
 	$(window).on("scroll", _.throttle(scrollNav, 500, {'leading': true, 'trailing': true }));
+
 
 
 	///////////////////////////////////////
@@ -88,7 +88,7 @@ $(document).ready(function() {
 		{
 			name: "Acuña",
 			definition: "Murchison’s 100,000-acre ranch, nestled deep within Mexico’s Sierra de Tamaulipas mountain range, 70 miles northwest of Tampico and 700 miles south of Dallas. (Courtesy the Murchison Family)",
-			image: "images/_glossAcuña.jpg",
+			image: "images/_glossAcuna.jpg",
 			imageAlt: "The ranch house at Hacienda Acuña."
 		},
 		{
@@ -117,15 +117,9 @@ $(document).ready(function() {
 		},
 		{
 			name: "Lyndon Johnson",
-			definition: "Rep. Lyndon Johnson was elected to the Senate in 1948, thanks in part to financial support from Murchison and Sid Richardson. His election was key to legislation that supported the Texas oil business. (The Associated Press)",
+			definition: "Rep. Lyndon Johnson was elected to the Senate in 1948, thanks in part to financial support from Murchison and Sid Richardson. His election was key to legislation that supported the Texas oil business. He would go on to become the 36th President of the United States. (The Associated Press)",
 			image: "images/_glossJohnson.jpg",
 			imageAlt: "Lyndon Johnson"
-		},
-		{
-			name: "Jean Kerr",
-			definition: "Kerr was a member of Joe McCarthy’s staff who wrote speeches for the senator along with ghostwriting one of his books. Kerr married McCarthy in 1953. (The Associated Press)",
-			image: "images/_glossKerr.jpg",
-			imageAlt: "Jean Kerr"
 		},
 		{
 			name: "Spanish Cay",
@@ -140,6 +134,10 @@ $(document).ready(function() {
 			imageAlt: "The entrance to the Hotel del Charro."
 		},
 		{
+			name: "John Connally",
+			definition: "Connally was Sid Richardson’s lawyer and served as an aide to Senator Lyndon Johnson."
+		},
+		{
 			name: "J. Edgar Hoover",
 			definition: "Director of the FBI from 1935 to 1972, Hoover was a frequent guest at Murchison’s Hotel del Charro. (The Associated Press)",
 			image: "images/_glossHoover.jpg",
@@ -150,15 +148,36 @@ $(document).ready(function() {
 			definition: "Associate Director of the FBI from 1930 to 1972, Tolson was a friend of FBI Director J. Edger Hoover and was a frequent guest at Murchison’s Hotel del Charro with Hoover. (The Associated Press)",
 			image: "images/_glossTolson.jpg",
 			imageAlt: "Clyde Tolson"
+		},
+		{
+			name: "Gil Brandt",
+			definition: "The Cowboys director of player personnel from 1989 to 1989.",
+			image: "images/_glossBrandt.jpg",
+			imageAlt: "Gil Brandt (left) and Cowboys quarterback Roger Staubach. (File photo)"
+		},
+		{
+			name: "Tex Schramm",
+			definition: "Dallas Cowboys general manager and Clint Murchison Jr.’s first football employee. (File photo)",
+			image: "images/_glossSchramm.jpg",
+			imageAlt: "Tex Schramm"
+		},
+		{
+			name: "Emanuel Celler",
+			definition: "A member of the U.S. House of Representatives from 1923 to 1973, Celler introduced a bill to exempt some pro sports television broadcasts from anti-trust laws."
+		},
+		{
+			name: "Barbara Murchison",
+			definition: "John Murchison’s youngest daughter."
+		},
+		{
+			name: "John Coffman",
+			definition: "Barabara Murchison’s fiancé."
 		}
 	];
 
 	$("#part1glossary").need2know({
 		glossary: glossaryEntries
 	});
-
-
-
 
 
 	///////////////////////////////////////
@@ -169,7 +188,7 @@ $(document).ready(function() {
 	$(".imageLabel").on("click", function() {
 		var width = $(window).width();
 
-		var graphicHeight = $("#hotelGraphic").outerHeight();
+		var graphicHeight = $(".photoGraphic").outerHeight();
 		$("#graphicImage").css("height", graphicHeight);
 
 		var image = $(this).attr("data-image");
@@ -204,6 +223,9 @@ $(document).ready(function() {
 	  	}
 	}
 
+	if ($("#caySlideshow")) {
+		$("#caySlideshow").easyslide();
 
+	}
 
 });

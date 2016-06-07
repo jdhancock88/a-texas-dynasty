@@ -627,6 +627,9 @@ XV. CREDIT LINKS
   margin: 6rem 0 0;
   max-width: 650px;
   padding-bottom: 2.4rem; }
+  @media (max-width: 850px) {
+    .credits {
+      max-width: none; } }
 
 .credits p {
   display: block;
@@ -650,6 +653,9 @@ XVI. MORE LINKS
   margin: 4.8rem 0 6rem;
   max-width: 650px;
   padding-bottom: 2.4rem; }
+  @media (max-width: 850px) {
+    .more {
+      max-width: none; } }
 
 .more h5, .more p, .more a {
   font-family: 'Open Sans', Arial, sans-serif; }

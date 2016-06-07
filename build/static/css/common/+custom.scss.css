@@ -26,6 +26,10 @@
     #contentHeader {
       position: relative; } }
 
+@media (max-width: 850px) {
+  .contentWell p {
+    max-width: none; } }
+
 .part1 {
   background-image: url("../images/murchLede4-3000.jpg"); }
   @media (max-width: 1499px) {
@@ -43,6 +47,15 @@
   @media (max-width: 899px) {
     .part2 {
       background-image: url("../images/part2Lede-1200.jpg"); } }
+
+.part3 {
+  background-image: url("../images/part3Lede-3000.jpg"); }
+  @media (max-width: 1499px) {
+    .part3 {
+      background-image: url("../images/part3Lede-1800.jpg"); } }
+  @media (max-width: 899px) {
+    .part3 {
+      background-image: url("../images/part3Lede-1200.jpg"); } }
 
 #customHead {
   position: relative;
@@ -63,7 +76,8 @@
       float: left;
       clear: left;
       letter-spacing: -1px;
-      display: inline-block; }
+      display: inline-block;
+      text-shadow: 2px 2px 6px rgba(33, 33, 33, 0.3); }
     #customHead h1 .largeHead {
       font-size: 8rem;
       line-height: 8.4rem;
@@ -77,7 +91,8 @@
     font-size: 2.4rem;
     line-height: 3rem;
     margin-bottom: 0;
-    text-transform: initial; }
+    text-transform: initial;
+    text-shadow: 2px 2px 6px rgba(33, 33, 33, 0.3); }
   #customHead h3 {
     font-size: 2rem;
     line-height: 2.4rem;
@@ -132,6 +147,8 @@
           margin-bottom: 1.2rem;
           letter-spacing: -1px;
           display: inline-block; }
+        #customHead .headGroup .head, #customHead .headGroup h2 {
+          text-shadow: none; }
         #customHead .headGroup h2 {
           font-size: 2.4rem;
           line-height: 3rem;
@@ -187,7 +204,8 @@
   font-size: 1.3rem;
   line-height: 1.8rem;
   margin-bottom: 1.3rem;
-  font-family: "Open Sans", Arial, sans-serif; }
+  font-family: "Open Sans", Arial, sans-serif;
+  margin-top: 2.4rem; }
 
 .dropcap {
   font-family: Bitter, Georiga, serif;
@@ -226,6 +244,9 @@
   margin: 0 0; }
   .shareCommentsBottom ul {
     text-align: center; }
+  @media (max-width: 850px) {
+    .shareCommentsBottom {
+      max-width: none; } }
 
 @media (max-width: 860px) {
   .shareCommentsTop {
@@ -271,7 +292,6 @@
     background-size: 100px 10px; }
   @media (max-width: 850px) {
     .wideBlock {
-      max-width: 650px;
       margin: 4.8rem 0; }
       .wideBlock img {
         width: 98%;
@@ -292,8 +312,8 @@
 
 .sliderImage {
   width: 60%;
-  max-width: 750px;
-  margin: 40px 0 40px 40px;
+  max-width: 650px;
+  margin: 00px 0 40px 40px;
   float: right;
   position: relative; }
   .sliderImage .borderImage {
@@ -345,8 +365,7 @@
   .sliderImage {
     float: none;
     margin: 4.8rem 0;
-    width: 100%;
-    max-width: 650px; }
+    width: 100%; }
     .sliderImage img {
       width: 98%;
       margin-left: 1%; }
@@ -367,17 +386,14 @@
   text-align: center; }
 
 .gloss {
-  border: 2px dotted #bdad77;
+  border: 1px dotted #bdad77;
   cursor: pointer;
   transition: all .2s ease-out;
-  padding: 1px;
+  padding: 0px;
   background-color: #e7e1cd;
   padding: 0 2px;
   display: inline-block;
   border-radius: 3px; }
-  .gloss i {
-    font-size: 12px;
-    line-height: 24px; }
 
 .glossary {
   background-color: white;
@@ -432,19 +448,72 @@
   .glossary p {
     width: 100%; }
 
-#hotelGraphic {
+#hotelGraphic, #cayGraphic {
   width: 90vw;
   margin: 48px auto 0;
   padding: 24px 0 0;
   position: relative;
   border-top: 1px solid #ebebeb;
   overflow: hidden; }
-  #hotelGraphic .credit {
+  #hotelGraphic .credit, #cayGraphic .credit {
     text-align: right;
     margin-top: 1.2rem;
     font-size: 1.1rem;
     line-height: 1.5rem;
     margin-bottom: 0; }
+
+#cayGraphic .graphicChatter {
+  padding: 10px;
+  background-color: white;
+  top: auto;
+  bottom: 18px; }
+
+#cayGraphic .credit {
+  margin-top: 0rem; }
+
+#cayGraphic #graphicImage {
+  width: 100%; }
+  #cayGraphic #graphicImage img {
+    margin: 2.4rem auto .6rem;
+    width: 80%;
+    float: none;
+    display: block; }
+  #cayGraphic #graphicImage .cutline {
+    width: 80%;
+    float: none;
+    max-width: none;
+    margin: 0 auto; }
+
+#cayGraphic #image1 {
+  left: 35vw;
+  top: 19vw; }
+
+#cayGraphic #image2 {
+  left: 25vw;
+  top: 14vw; }
+
+#cayGraphic #image3 {
+  right: 30vw;
+  top: 32vw; }
+
+#cayGraphic #image4 {
+  right: 31vw;
+  top: 28vw; }
+
+#cayGraphic #image5 {
+  right: 18vw;
+  top: 38vw; }
+
+@media (max-width: 900px) {
+  #cayGraphic .graphicChatter {
+    padding: 1.2rem 0 0;
+    max-width: none; }
+  #cayGraphic .graphicBlock img {
+    margin: 0 0; } }
+
+@media (max-width: 750px) {
+  #cayGraphic {
+    display: none; } }
 
 .graphicChatter {
   position: absolute;
@@ -656,10 +725,18 @@
       #graphicImage .cutline {
         width: 95%; } }
 
+#caySlideshow {
+  display: none; }
+  @media (max-width: 750px) {
+    #caySlideshow {
+      display: block; } }
+
 #topNav {
   width: 350px;
   padding-right: 10px;
   z-index: 100; }
+  #topNav ul {
+    margin-top: 2px; }
   @media (max-width: 675px) {
     #topNav h6 {
       display: none; } }
@@ -675,6 +752,8 @@
   -moz-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out; }
+  #scrollNav ul {
+    margin-top: 2px; }
   #scrollNav.visible {
     top: 0; }
 

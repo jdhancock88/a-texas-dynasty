@@ -41,6 +41,12 @@
   }
 }
 
+.contentWell p {
+    @media (max-width: 850px) {
+        max-width: none;
+    }
+}
+
 .part1 {
   background-image: url("../images/murchLede4-3000.jpg");
   @media (max-width: 1499px) {
@@ -58,6 +64,16 @@
   }
   @media (max-width: 899px) {
     background-image: url("../images/part2Lede-1200.jpg");
+  }
+}
+
+.part3 {
+  background-image: url("../images/part3Lede-3000.jpg");
+  @media (max-width: 1499px) {
+    background-image: url("../images/part3Lede-1800.jpg");
+  }
+  @media (max-width: 899px) {
+    background-image: url("../images/part3Lede-1200.jpg");
   }
 }
 
@@ -82,6 +98,7 @@
       clear: left;
       letter-spacing: -1px;
       display: inline-block;
+      text-shadow: 2px 2px 6px rgba(33,33,33,.3);
     }
     .largeHead {
       @include type(8rem, 8.4rem, 0rem);
@@ -94,6 +111,8 @@
   h2 {
     @include type(2.4rem, 3rem, 0);
     text-transform: initial;
+    text-shadow: 2px 2px 6px rgba(33,33,33,.3);
+
   }
   h3 {
     @include type(2rem, 2.4rem, 1.2rem);
@@ -147,6 +166,9 @@
         // border-bottom: 20px solid $black66;
         letter-spacing: -1px;
         display: inline-block;
+      }
+      .head, h2 {
+          text-shadow: none;
       }
       h2 {
         @include type(2.4rem, 3rem, 0);
@@ -210,6 +232,7 @@
 .contentWell .notes {
   @include type(1.3rem, 1.8rem, 1.3rem);
   font-family: $sans;
+  margin-top: 2.4rem;
 }
 
 
@@ -246,6 +269,9 @@
   margin: 0 0;
   ul {
     text-align: center;
+  }
+  @media(max-width: 850px) {
+      max-width: none;
   }
 }
 
@@ -303,7 +329,6 @@
       background-size: 100px 10px;
     }
   @media (max-width: 850px) {
-    max-width: 650px;
     margin: 4.8rem 0;
     img {
       width: 98%;
@@ -330,8 +355,8 @@
 
 .sliderImage {
   width: 60%;
-  max-width: 750px;
-  margin: 40px 0 40px 40px;
+  max-width: 650px;
+  margin: 00px 0 40px 40px;
   float: right;
   position: relative;
   .borderImage {
@@ -388,7 +413,6 @@
     float: none;
     margin: 4.8rem 0;
     width: 100%;
-    max-width: 650px;
     img {
       width: 98%;
       margin-left: 1%;
@@ -427,18 +451,14 @@
 ////////////////////////////////////
 
 .gloss {
-  border: 2px dotted darken($tableBar, 30%);
+  border: 1px dotted darken($tableBar, 30%);
   cursor: pointer;
   transition: all .2s ease-out;
-  padding: 1px;
+  padding: 0px;
   background-color: darken($tableBar, 5%);
   padding: 0 2px;
   display: inline-block;
   border-radius: 3px;
-  i {
-    font-size: 12px;
-    line-height: 24px;
-  }
 }
 .glossary {
   background-color: white;
@@ -500,7 +520,7 @@
 ///// HOTEL GRAPHIC ////////////////
 ////////////////////////////////////
 
-#hotelGraphic {
+#hotelGraphic, #cayGraphic {
     width: 90vw;
     margin: 48px auto 0;
     padding: 24px 0 0;
@@ -511,6 +531,65 @@
         text-align: right;
         margin-top: 1.2rem;
         @include type(1.1rem, 1.5rem, 0);
+    }
+}
+
+#cayGraphic {
+    .graphicChatter {
+        padding: 10px;
+        background-color: white;
+        top: auto;
+        bottom: 18px;
+    }
+    .credit {
+        margin-top: 0rem;
+    }
+    #graphicImage {
+        width: 100%;
+        img {
+            margin: 2.4rem auto .6rem;
+            width: 80%;
+            float: none;
+            display: block;
+        }
+        .cutline {
+            width: 80%;
+            float: none;
+            max-width: none;
+            margin: 0 auto;
+        }
+    }
+    #image1 {
+        left: 35vw;
+        top: 19vw;
+    }
+    #image2 {
+        left: 25vw;
+        top: 14vw;
+    }
+    #image3 {
+        right: 30vw;
+        top: 32vw;
+    }
+    #image4 {
+        right: 31vw;
+        top: 28vw;
+    }
+    #image5 {
+        right: 18vw;
+        top: 38vw;
+    }
+    @media (max-width: 900px) {
+        .graphicChatter {
+            padding: 1.2rem 0 0;
+            max-width: none;
+        }
+        .graphicBlock img {
+            margin: 0 0;
+        }
+    }
+    @media (max-width: 750px) {
+        display: none;
     }
 }
 
@@ -751,6 +830,13 @@
     }
 }
 
+#caySlideshow {
+    display: none;
+    @media(max-width: 750px) {
+        display: block;
+    }
+}
+
 
 ////////////////////////////////////
 ///// NAV //////////////////////////
@@ -760,6 +846,9 @@
   width: 350px;
   padding-right: 10px;
   z-index: 100;
+  ul {
+      margin-top: 2px;
+  }
   @media (max-width: 675px) {
     h6 {
       display: none;
@@ -774,6 +863,9 @@
   background-color: $black33;
   display: none;
   top: -100px;
+  ul {
+      margin-top: 2px;
+  }
   @include transition(all, .25s, ease-out);
   &.visible {
     top: 0;
