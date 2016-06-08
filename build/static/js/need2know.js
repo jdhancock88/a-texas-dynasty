@@ -50,6 +50,19 @@
   			}
   		});
 
+        // if an entry has an image, populate the image tag with the appropriate parameters from the entry. if there's no image in the entry, hide the image
+  		if (entry.image) {
+            self.find("img").css("display", "block");
+
+  			self.find("img").attr({
+  				"display": "block",
+  				"src": entry.image,
+  				"alt": entry.imageAlt
+  			});
+  		} else {
+  			self.find("img").css("display", "none");
+  		}
+
   		// position the glossary popup and populate the content with the entry definition
   		self.css({
   			"display": "block",
@@ -60,20 +73,9 @@
   		self.find("h6").html(entry.name);
   		self.find("p").html(entry.definition);
 
-      setTimeout(function() {
-        self.addClass("glossDisplay");
-      }, 0);
-
-  		// if an entry has an image, populate the image tag with the appropriate parameters from the entry. if there's no image in the entry, hide the image
-  		if (entry.image) {
-  			self.find("img").attr({
-  				"display": "block",
-  				"src": entry.image,
-  				"alt": entry.imageAlt
-  			});
-  		} else {
-  			self.find("img").css("display", "none");
-  		}
+        setTimeout(function() {
+            self.addClass("glossDisplay");
+        }, 0);
   	}
 
   	// hiding the glossary
@@ -81,7 +83,7 @@
       self.removeClass("glossDisplay");
       setTimeout(function() {
         self.css("display", "none");
-      }, 250);
+    }, 250);
   	}
 
   	// display and build the glossary popup on mouseover

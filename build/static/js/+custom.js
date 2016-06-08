@@ -33,7 +33,6 @@ $(document).ready(function() {
 	var windowHeight = $(window).height();
 
 	$(window).scroll(function() {
-
 		var scrollHeight = $(window).scrollTop();
 
 		$.each($(".sliderImage"), function(k,v) {
@@ -52,7 +51,7 @@ $(document).ready(function() {
 
 	});
 
-	$(window).on("scroll", _.throttle(scrollNav, 500, {'leading': true, 'trailing': true }));
+	$(window).on("scroll", _.throttle(scrollNav, 200, {'leading': true, 'trailing': true }));
 
 
 

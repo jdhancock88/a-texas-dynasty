@@ -294,7 +294,7 @@ gulp.task('aws', ['zip'], function() {
   var year = meta.publishYear,
       publisher = awspublish.create(awsJson);
 
-  return gulp.src('./public/**/*')
+  return gulp.src(['./public/**/*', '!./public/**/*.zip'])
       .pipe(confirm({
         question: 'You\'re about to publish this project to AWS under directory \''+year+'/'+appName+'\'. In the process, we\'ll also wipe out any uploads to the test directory. Are you sure you want to do this?',
         input: '_key:y'
@@ -311,7 +311,7 @@ gulp.task('aws', ['zip'], function() {
 // Publish to a test directory.
 gulp.task('test', ['zip'], function() {
   var publisher = awspublish.create(awsJson);
-  return gulp.src('./public/**/*')
+  return gulp.src(['./public/**/*', '!./public/**/*.zip'])
       .pipe(confirm({
         question: 'You\'re about to publish this project to AWS under directory test/\''+appName+'\'. Are you sure?',
         input: '_key:y'
