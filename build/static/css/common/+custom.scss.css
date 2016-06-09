@@ -746,8 +746,7 @@
   width: 100%;
   z-index: 200;
   background-color: #212121;
-  display: none;
-  top: -100px;
+  transform: translate3d(0, -100px, 0);
   -webkit-transtion: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
@@ -755,7 +754,7 @@
   #scrollNav ul {
     margin-top: 2px; }
   #scrollNav.visible {
-    top: 0; }
+    transform: translate3d(0, -2px, 0); }
 
 .seriesNav {
   position: fixed;

@@ -861,14 +861,13 @@
   width: 100%;
   z-index: 200;
   background-color: $black33;
-  display: none;
-  top: -100px;
+  transform: translate3d(0,-100px,0);
+  @include transition(all, .25s, ease-out);
   ul {
       margin-top: 2px;
   }
-  @include transition(all, .25s, ease-out);
   &.visible {
-    top: 0;
+      transform: translate3d(0,-2px,0);
   }
 }
 

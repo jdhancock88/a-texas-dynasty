@@ -16,7 +16,6 @@ $(document).ready(function() {
 		var tn = $("#topNav");
 
 		if (($(window).scrollTop() + 100) > $("#wrapper").offset().top ) {
-			sn.css("display", "block");
 			setTimeout(function() {
 				sn.addClass("visible");
 				tn.css("display", "none");
@@ -24,9 +23,8 @@ $(document).ready(function() {
 		} else {
 			sn.removeClass("visible");
 			setTimeout(function() {
-				sn.css("display", "none");
 				tn.css("display", "block");
-			}, 260);
+			}, 250);
 		}
 	}
 
