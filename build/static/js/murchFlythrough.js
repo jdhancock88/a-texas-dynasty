@@ -23,7 +23,7 @@ var murch = [
           start: 11,
           end: 15,
           overlayHead: "HP Village inspired",
-          overlayText: "Designed by Highland Park Village architect Jim Cheek, the compound had a main house, swimming pool, barns, houses for staff and workshops.",
+          overlayText: "Designed by Highland Park Village architect Jim Cheek, the compound had a main house, swimming pool, barns, workshops and houses for staff.",
           labels: [{text: "Main house", x: "53vw", y: "24.5vw"}, {text: "Staff housing", x: "41vw", y: "46vw"}],
           satCredit: "Satelitte imagery: 2016 DigitalGlobe"
       },
@@ -39,7 +39,7 @@ var murch = [
           number: 4,
           type: "image",
           imagePath: "images/_house2.jpg",
-          cutline: "Hacienda Acuna was built from limestone, clay and timber all gathered on the ranch. (Courtesy of the Murchison family)",
+          cutline: "Hacienda Acuña was built from limestone, clay and timber all gathered on the ranch. (Courtesy of the Murchison family)",
           start: 15,
           end: 17
       },
@@ -76,7 +76,7 @@ var murch = [
           start: 29,
           end: 34.5,
           overlayHead: "Island airstrip",
-          overlayText: "The shoreline was graded into an airstrip so Murchison and his guests could make a short flight from Acuña.",
+          overlayText: "The shoreline was graded into an airstrip so Murchison and his guests could make the short flight from Acuña.",
           labels: [{text: "Airstrip", x: "49vw", y: "32vw"}],
           satCredit: "Satelitte imagery: 2016 DigitalGlobe"
       },
@@ -118,7 +118,7 @@ var murch = [
           number: 13,
           type: "image",
           imagePath: "images/_flyBoat.jpg",
-          cutline: "At Isla del Toro, the boat Hasta Mañana was use to take the Duke of Windsor fishing. (Courtesy of the Murchison family)",
+          cutline: "At Isla del Toro, the boat Hasta Mañana was used to take the Duke of Windsor fishing. (Courtesy of the Murchison family)",
           start: 39,
           end: 39
       }

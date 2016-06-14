@@ -78,7 +78,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "Wallis Simpson",
-			definition: "The Duchess of Windsor, Wallis Simpson was twice divorced before marrying the Duke of Windsor. Simpson refused to fly, so the couple traveled by train and car to Murchison’s Hacienda Acuña. (The Associated Press)",
+			definition: "The Duchess of Windsor, Wallis Simpson was twice divorced before marrying the Duke of Windsor. She refused to fly, so the couple traveled by train and car to Murchison’s Hacienda Acuña. (The Associated Press)",
 			image: "images/_glossSimpson.jpg",
 			imageAlt: "Wallis Simpson"
 		},
@@ -90,7 +90,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "Isla del Toro",
-			definition: "Murchison’s private island off the coast of Tampico, Mexico."
+			definition: "Murchison’s private island near Tampico, Mexico."
 		},
 		{
 			name: "Sid Richardson",
@@ -100,7 +100,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "Olin Lancaster",
-			definition: "Lancaster was a friend of Murchison’s and was traveling with him when the pair discovered Hacienda Acuña."
+			definition: "Lancaster was a friend of Murchison’s and was with him when the pair discovered Hacienda Acuña."
 		},
 		{
 			name: "Bob Young",
@@ -110,11 +110,11 @@ $(document).ready(function() {
 			name: "The Flying Ginny",
 			definition: "Murchison’s private DC-3 plane, named after his wife, Virginia “Ginny” Murchison.",
 			image: "images/_glossGinny.jpg",
-			imageAlt: "Clint Murchison’s private DC-3 plane, The Flying Ginny, was one of the main means of travel to Acuña."
+			imageAlt: "Clint Murchison’s private DC-3, The Flying Ginny, was one of the main means of travel to Acuña."
 		},
 		{
 			name: "Lyndon Johnson",
-			definition: "Rep. Lyndon Johnson was elected to the Senate in 1948, thanks in part to financial support from Murchison and Sid Richardson. His election was key to legislation that supported the Texas oil business. He would go on to become the 36th President of the United States. (The Associated Press)",
+			definition: "Rep. Lyndon Johnson was elected to the Senate in 1948, thanks in part to financial support from Murchison and Sid Richardson. His election was key to legislation that supported the Texas oil business. He became the 36th President of the United States. (The Associated Press)",
 			image: "images/_glossJohnson.jpg",
 			imageAlt: "Lyndon Johnson"
 		},
@@ -132,7 +132,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "John Connally",
-			definition: "Connally was Sid Richardson’s lawyer and served as an aide to Senator Lyndon Johnson."
+			definition: "Future Gov. John Connally was an aide to Lyndon Johson and  Sid Richardson’s lawyer."
 		},
 		{
 			name: "J. Edgar Hoover",
