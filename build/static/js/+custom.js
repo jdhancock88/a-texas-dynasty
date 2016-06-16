@@ -60,7 +60,7 @@ $(document).ready(function() {
 	var glossaryEntries = [
 		{
 			name: "Virginia Murchison",
-			definition: "Virginia “Ginny” Murchsion (maiden name: Long) was Clint Murchison’s second wife. The couple married in 1943. (Courtesy the Murchison Family)",
+			definition: "Virginia “Ginny” Murchison (maiden name: Long) was Clint Murchison’s second wife. The couple married in 1943. (Courtesy the Murchison Family)",
 			image: "images/_virginia.jpg",
 			imageAlt: "Virginia Murchison"
 		},
@@ -94,7 +94,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "Sid Richardson",
-			definition: "Murchison’s boyhood best friend. Murchison and Richarson owned Matagorda and San Jose islands on the Texas Gulf Coast, where they played hosts to friends and politicians, including President Franklin Roosevelt. (The Associated Press)",
+			definition: "Murchison’s boyhood best friend. Murchison and Richardson owned Matagorda and San Jose islands on the Texas Gulf Coast, where they played hosts to friends and politicians, including President Franklin Roosevelt. (The Associated Press)",
 			image: "images/_glossRichardson.jpg",
 			imageAlt: "Sid Richardson"
 		},
@@ -132,7 +132,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "John Connally",
-			definition: "Future Gov. John Connally was an aide to Lyndon Johson and  Sid Richardson’s lawyer."
+			definition: "Future Gov. John Connally was an aide to Lyndon Johnson and Sid Richardson’s lawyer."
 		},
 		{
 			name: "J. Edgar Hoover",
