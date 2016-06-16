@@ -60,13 +60,13 @@ $(document).ready(function() {
 	var glossaryEntries = [
 		{
 			name: "Virginia Murchison",
-			definition: "Virginia “Ginny” Murchison (maiden name: Long) was Clint Murchison’s second wife. The couple married in 1943. (Courtesy the Murchison Family)",
+			definition: "Virginia “Ginny” Murchison (maiden name: Long) was Clint Murchison’s second wife. The couple married in 1943. (Courtesy the Murchison family)",
 			image: "images/_virginia.jpg",
 			imageAlt: "Virginia Murchison"
 		},
 		{
 			name: "Clint Jr. and John Murchison",
-			definition: "For four decades, they ran Murchison Brothers, a partnership created by their father. Their most famous asset was the Dallas Cowboys. (Courtesy the Murchison Family)",
+			definition: "For four decades, they ran Murchison Brothers, a partnership created by their father. Their most famous asset was the Dallas Cowboys. (Courtesy the Murchison family)",
 			image: "images/_glossBrothers.jpg",
 			imageAlt: "Clint Murchison Jr and his older brother, John"
 		},
@@ -84,7 +84,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "Acuña",
-			definition: "Murchison’s 100,000-acre ranch, nestled deep within Mexico’s Sierra de Tamaulipas mountain range, 70 miles northwest of Tampico and 700 miles south of Dallas. (Courtesy the Murchison Family)",
+			definition: "Murchison’s 100,000-acre ranch, nestled deep within Mexico’s Sierra de Tamaulipas mountain range, 70 miles northwest of Tampico and 700 miles south of Dallas. (Courtesy the Murchison family)",
 			image: "images/_glossAcuna.jpg",
 			imageAlt: "The ranch house at Hacienda Acuña."
 		},
@@ -120,13 +120,13 @@ $(document).ready(function() {
 		},
 		{
 			name: "Spanish Cay",
-			definition: "Clint Murchison Jr.’s 2½-mile long private island in the Bahamas where Sen. Joe McCarthy honeymooned with his wife, Jean. (Courtesy the Murchison Family)",
+			definition: "Clint Murchison Jr.’s 2½-mile long private island in the Bahamas where Sen. Joe McCarthy honeymooned with his wife, Jean. (Courtesy the Murchison family)",
 			image: "images/_glossSpanishCay.jpg",
 			imageAlt: "Spanish Cayt"
 		},
 		{
 			name: "Hotel del Charro",
-			definition: "The Hotel del Charro was a Murchison-owned hotel in La Jolla, Calif. Constructed in 1953, the hotel was frequented by many of Murchison’s political connections, including FBI director J. Edgar Hoover, Richard Nixon and Joe McCarthy. (Courtesy the Murchison Family)",
+			definition: "The Hotel del Charro was a Murchison-owned hotel in La Jolla, Calif. Constructed in 1953, the hotel was frequented by many of Murchison’s political connections, including FBI director J. Edgar Hoover, Richard Nixon and Joe McCarthy. (Courtesy the Murchison family)",
 			image: "images/_glossCharro.jpg",
 			imageAlt: "The entrance to the Hotel del Charro."
 		},
@@ -142,7 +142,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "Clyde Tolson",
-			definition: "Associate Director of the FBI from 1930 to 1972, Tolson was a friend of FBI Director J. Edger Hoover and was a frequent guest at Murchison’s Hotel del Charro with Hoover. (The Associated Press)",
+			definition: "Associate Director of the FBI from 1930 to 1972, Tolson was a friend of FBI director J. Edgar Hoover and was a frequent guest at Murchison’s Hotel del Charro with Hoover. (The Associated Press)",
 			image: "images/_glossTolson.jpg",
 			imageAlt: "Clyde Tolson"
 		},
