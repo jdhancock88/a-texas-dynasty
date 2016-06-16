@@ -872,14 +872,14 @@ XX. ADS
   height: 66vw;
   font-family: Bitter, Georiga, serif;
   text-transform: uppercase;
-  max-width: 450px;
+  max-width: 550px;
   width: 100%;
   color: white; }
   #customHead .headGroup {
     position: absolute;
     left: 20px;
     bottom: 50px;
-    max-width: 450px; }
+    max-width: 550px; }
   #customHead h1 {
     font-weight: bold; }
     #customHead h1 .head {
@@ -1275,8 +1275,7 @@ XX. ADS
 #cayGraphic .graphicChatter {
   padding: 10px;
   background-color: white;
-  top: auto;
-  bottom: 18px; }
+  top: 20px; }
 
 #cayGraphic .credit {
   margin-top: 0rem; }
@@ -1295,29 +1294,34 @@ XX. ADS
     margin: 0 auto; }
 
 #cayGraphic #image1 {
-  left: 35vw;
-  top: 19vw; }
+  left: 50vw;
+  top: 7vw; }
 
 #cayGraphic #image2 {
-  left: 25vw;
-  top: 14vw; }
+  left: 57vw;
+  top: 2vw; }
 
 #cayGraphic #image3 {
-  right: 30vw;
-  top: 32vw; }
+  right: 48vw;
+  top: 20vw; }
 
 #cayGraphic #image4 {
-  right: 31vw;
-  top: 28vw; }
+  right: 20vw;
+  top: 26vw; }
 
 #cayGraphic #image5 {
-  right: 18vw;
-  top: 38vw; }
+  right: 34vw;
+  top: 31vw; }
+
+#cayGraphic #image6 {
+  left: 15vw;
+  bottom: 14vw; }
 
 @media (max-width: 900px) {
   #cayGraphic .graphicChatter {
     padding: 1.2rem 0 0;
-    max-width: none; }
+    max-width: none;
+    top: auto; }
   #cayGraphic .graphicBlock img {
     margin: 0 0; } }
 
@@ -1606,6 +1610,11 @@ XX. ADS
       padding: 0; }
     .seriesNav .navPart {
       display: none; } }
+
+.pubTitle {
+  font-style: italic;
+  font-weight: bold;
+  color: #424242; }
 
 .slideshow {
   margin: 48px 0;
