@@ -168,7 +168,7 @@ $(document).ready(function() {
 		},
 		{
 			name: "John Coffman",
-			definition: "Barabara Murchison’s fiancé."
+			definition: "Barbara Murchison’s fiancé."
 		}
 	];
 

@@ -48,32 +48,32 @@
 }
 
 .part1 {
-  background-image: url("../images/murchLede4-3000.jpg");
+  background-image: url("../images/_murchLede4-3000.jpg");
   @media (max-width: 1499px) {
-    background-image: url("../images/murchLede4-1800.jpg");
+    background-image: url("../images/_murchLede4-1800.jpg");
   }
   @media (max-width: 899px) {
-    background-image: url("../images/murchLede4-1200.jpg");
+    background-image: url("../images/_murchLede4-1200.jpg");
   }
 }
 
 .part2 {
-  background-image: url("../images/part2Lede-3000.jpg");
+  background-image: url("../images/_part2Lede-3000.jpg");
   @media (max-width: 1499px) {
-    background-image: url("../images/part2Lede-1800.jpg");
+    background-image: url("../images/_part2Lede-1800.jpg");
   }
   @media (max-width: 899px) {
-    background-image: url("../images/part2Lede-1200.jpg");
+    background-image: url("../images/_part2Lede-1200.jpg");
   }
 }
 
 .part3 {
-  background-image: url("../images/part3lede-3000.jpg");
+  background-image: url("../images/_part3lede-3000.jpg");
   @media (max-width: 1499px) {
-    background-image: url("../images/part3lede-1800.jpg");
+    background-image: url("../images/_part3lede-1800.jpg");
   }
   @media (max-width: 899px) {
-    background-image: url("../images/part3lede-1200.jpg");
+    background-image: url("../images/_part3lede-1200.jpg");
   }
 }
 
@@ -576,7 +576,7 @@
     }
     #image5 {
         right: 34vw;
-        top: 31vw;
+        top: 18vw;
     }
     #image6 {
         left: 15vw;
@@ -929,4 +929,23 @@
     font-style: italic;
     font-weight: bold;
     color: $black66;
+}
+
+.refer {
+    margin-top: 4.8rem;
+    padding-top: 4.8rem;
+    border-top: 1px solid $black235;
+    width: 100%;
+    max-width: 650px;
+    img {
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+    h5 {
+        font-family: $custom;
+        margin-bottom: .6rem;
+    }
+    p.notes {
+        margin-top: 0;
+    }
 }

@@ -65,7 +65,7 @@ var murch = [
           number: 7,
           type: "waypoint",
           start: 23,
-          end: 28.5,
+          end: 28,
           overlayHead: "Island life",
           overlayText: "About 80 miles from Acuña was Murchison’s 900-acre Isla del Toro.",
           satCredit: "Satelitte imagery: 2016 DigitalGlobe; 2016 Cnes/Spot Image; Data SIO, NOAA, U.S. Navy, NGA, GEBCO"
@@ -73,8 +73,8 @@ var murch = [
       {
           number: 8,
           type: "waypoint",
-          start: 29,
-          end: 34.5,
+          start: 28.5,
+          end: 34,
           overlayHead: "Island airstrip",
           overlayText: "The shoreline was graded into an airstrip so Murchison and his guests could make the short flight from Acuña.",
           labels: [{text: "Airstrip", x: "49vw", y: "32vw"}],
