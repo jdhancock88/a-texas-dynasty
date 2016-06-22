@@ -872,14 +872,13 @@ XX. ADS
   height: 66vw;
   font-family: Bitter, Georiga, serif;
   text-transform: uppercase;
-  max-width: 550px;
   width: 100%;
   color: white; }
   #customHead .headGroup {
     position: absolute;
-    left: 20px;
-    bottom: 50px;
-    max-width: 550px; }
+    left: 0;
+    padding: 0 20px;
+    bottom: 20px; }
   #customHead h1 {
     font-weight: bold; }
     #customHead h1 .head {
@@ -887,7 +886,7 @@ XX. ADS
       clear: left;
       letter-spacing: -1px;
       display: inline-block;
-      text-shadow: 2px 2px 6px rgba(33, 33, 33, 0.3); }
+      text-shadow: 2px 2px 6px rgba(33, 33, 33, 0.8); }
     #customHead h1 .largeHead {
       font-size: 8rem;
       line-height: 8.4rem;
@@ -902,40 +901,16 @@ XX. ADS
     line-height: 3rem;
     margin-bottom: 0;
     text-transform: initial;
-    text-shadow: 2px 2px 6px rgba(33, 33, 33, 0.3); }
+    text-shadow: 2px 2px 6px rgba(33, 33, 33, 0.8);
+    max-width: 800px; }
   #customHead h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 2.4rem;
-    margin-bottom: 1.2rem;
-    text-transform: uppercase;
-    background-color: white;
-    color: #424242;
-    padding: 5px;
-    display: inline-block; }
-  @media (max-width: 1000px) {
-    #customHead h1 .head {
-      font-size: 6rem;
-      line-height: 2.5rem;
-      margin-bottom: 2.4rem;
-      background-size: 100px 10px; }
-      #customHead h1 .head:last-of-type {
-        margin-bottom: 0; }
-    #customHead h1 .largeHead {
-      font-size: 6rem;
-      line-height: 6.3rem;
-      margin-bottom: 0rem; }
-    #customHead h1 .smallHead {
-      font-size: 3rem;
-      line-height: 3.15rem;
-      margin-bottom: 0rem; }
-    #customHead h2 {
-      font-size: 2rem;
-      line-height: 2.4rem;
-      margin-bottom: 0; }
-    #customHead h3 {
-      font-size: 1.6rem;
-      line-height: 2.4rem;
-      margin-bottom: 1.2rem; } }
+    margin-bottom: 1.8rem;
+    border-bottom: 2px solid #424242;
+    display: none; }
+  #customHead .spacer {
+    margin-left: -4px; }
   @media (max-width: 850px) {
     #customHead {
       position: relative;
@@ -950,10 +925,11 @@ XX. ADS
         position: relative;
         left: auto;
         bottom: auto;
-        max-width: none; }
-        #customHead .headGroup .largeHead, #customHead .headGroup .smallHead {
+        max-width: none;
+        padding: 0 0; }
+        #customHead .headGroup .largeHead {
           font-size: 8rem;
-          line-height: 6.5rem;
+          line-height: 8rem;
           margin-bottom: 1.2rem;
           letter-spacing: -1px;
           display: inline-block; }
@@ -963,25 +939,22 @@ XX. ADS
           font-size: 2.4rem;
           line-height: 3rem;
           margin-bottom: 0;
-          max-width: 500px;
-          margin-top: 2.4rem; }
-        #customHead .headGroup h3 {
-          background: url("../images/_headBorder.jpg");
-          color: white;
-          padding: 5px; } }
+          font-weight: bold; } }
+  @media (max-width: 675px) {
+    #customHead h3 {
+      display: inline-block; } }
   @media (max-width: 550px) {
-    #customHead .headGroup .largeHead, #customHead .headGroup .smallHead {
+    #customHead .headGroup .largeHead {
       font-size: 6rem;
-      line-height: 6.15rem;
+      line-height: 6rem;
+      margin-bottom: 0; }
+    #customHead .headGroup .smallHead {
+      font-size: 3rem;
+      line-height: 3rem;
       margin-bottom: 0; }
     #customHead .headGroup h2 {
       font-size: 2rem;
       line-height: 2.4rem;
-      margin-bottom: 0; } }
-  @media (max-width: 400px) {
-    #customHead .headGroup .largeHead, #customHead .headGroup .smallHead {
-      font-size: 5rem;
-      line-height: 5.2rem;
       margin-bottom: 0; } }
 
 .tracking {
