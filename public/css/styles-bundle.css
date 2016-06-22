@@ -1049,7 +1049,7 @@ XX. ADS
   margin-bottom: 3.2rem; }
 
 .borderImage {
-  padding: 3%;
+  padding: 20px;
   background: url("../images/_imageBorder.jpg");
   box-shadow: 0px 0px 8px rgba(25, 25, 25, 0.5);
   border-radius: 5px; }
